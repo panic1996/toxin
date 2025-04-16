@@ -1,0 +1,28 @@
+.typography {
+  &.typography--variant {
+    &-h1 {
+      font-size: 24px;
+      font-weight: var(--fw-bold);
+      color: var(--dark-shade-100);
+    }
+
+    &-h2 {
+      font-size: 19px;
+      font-weight: var(--fw-bold);
+      color: var(--dark-shade-100);
+    }
+
+    &-h3 {
+      font-size: 12px;
+      font-weight: var(--fw-bold);
+      color: var(--dark-shade-100);
+      text-transform: uppercase;
+    }
+
+    &-paragraph {
+      font-size: 14px;
+      line-height: 24px;
+      color: var(--dark-shade-75);
+    }
+  }
+}
