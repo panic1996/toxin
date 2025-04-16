@@ -1,0 +1,46 @@
+:root {
+	--fw-extrathin: 100;
+	--fw-thin: 200;
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-semibold: 600;
+	--fw-bold: 700;
+	--fw-extrabold: 800;
+	--fw-black: 900;
+
+	--mobile-spacing: 18px;
+
+	// Container
+	--container: 1160px;
+
+	// Font-family
+	--ff-first: "Montserrat", sans-serif;
+
+	// Transition
+	--t-duration: 0.3s;
+
+	/* PRIMITIVE TOKENS */
+	--dark-shade-100: rgb(31, 32, 65);
+	--dark-shade-75: rgba(31, 32, 65, 0.75);
+	--dark-shade-50: rgba(31, 32, 65, 0.5);
+	--dark-shade-25: rgba(31, 32, 65, 0.25);
+	--dark-shade-10: rgba(31, 32, 65, 0.1);
+	--dark-shade-5: rgba(31, 32, 65, 0.5);
+	--light: #ffffff;
+	--purple: #bc9cff;
+	--green: #6fcf97;
+
+	/* SEMANTIC TOKENS */
+	--surface-primary: var(--light);
+
+	// TEXT
+	--text-primary: var(--dark-shade-75);
+	--text-secondary: var(--dark-shade-100);
+
+	--border-primary: var(--dark-shade-25);
+	--border-secondary: var(--dark-shade-50);
+	--icon-brand: var(--brand-color);
+	--icon-primary: var(--brand-color);
+	--icon-secondary: #5e6c8d;
+}
