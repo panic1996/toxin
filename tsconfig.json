@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"],
+			"@/components/*": ["src/components/*"],
+			"@/assets/*": ["src/assets/*"],
+			"@/api/*": ["src/api/*"],
+			"@/hooks/*": ["src/hooks/*"],
+			"@/data/*": ["src/data/*"],
+			"@/utils/*": ["src/utils/*"],
+			"@/contexts/*": ["src/contexts/*"],
+			"@/entities/*": ["src/entities/*"]
+		},
+		"rootDirs": ["src"],
+		"outDir": "build",
+		"lib": ["dom", "esnext"],
+		"typeRoots": ["node_modules/@types", "src/types"],
+		"target": "es6",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noEmit": true,
+		"jsx": "react-jsx"
+	},
+	"exclude": [
+		"node_modules",
+		"build",
+		"coverage",
+		"webpack.*.js",
+		"*.config.js"
+	]
+}
